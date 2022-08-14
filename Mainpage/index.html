@@ -46,22 +46,88 @@
             color: yellow;
         }
 
+        div {
+            vertical-align: top;
+        }
+
         .box6 {
-            
-            height: 400PX;
-            padding-left: 7PX;
-            width: 1000PX;
+
+            height: 375PX;
+            width: 99%;
             display: inline-block;
         }
 
-        .bbutton{
+        .smallbox {
+            height: 375PX;
+            width: 32%;
+            display: inline-block;
+            margin-left: 5PX;
+        }
+
+        .shortbox {
+
+            height: 200PX;
+            width: 100%;
+            display: inline-block;
+
+        }
+
+        .headline {
+            background-color: rgb(127, 127, 9);
+            color: white;
+            text-align: center;
+            height: 15PX;
+            padding-bottom: 10PX;
+            padding-top: 5PX;
+            margin-top: 0PX;
+        }
+
+
+
+        .bbutton {
             background-color: red;
             color: white;
             border-radius: 5PX;
-            width: 200PX;
+            width: 220PX;
+            margin-left: 10PX;
+
         }
+
         .bbutton:hover {
             background-color: yellow;
+            color: red;
+        }
+
+        input {
+            border-radius: 10PX;
+        }
+
+      .bullet {
+            height: 32PX;
+            width: 50PX;
+            display: inline-block;
+        }
+        .links{
+            display:  inline-block; 
+            margin-top: 10PX;
+            margin-left: 20PX;
+        }
+        .Samllbox1 {
+            width: 100%;
+            height: 38PX;
+            display: inline-block;
+        }
+        
+        a:link {
+        text-decoration: none;
+        color: black;
+        
+        }
+        a:visited ::after{
+            color:  black;
+}
+
+        a:hover{
             color: red;
         }
     </Style>
@@ -100,28 +166,108 @@
             </marquee>
         </div>
         <div class="box6">
-            <div style="height:350PX; width: 230PX; display: inline-block; ">
-              <div style="height: 125PX; width: 200PX; display: inline-block; position: relative;">
-                    <img src="../3.jpg" alt="" height="250PX" width="200PX">
-                </div>
-                <hr style="border-color: yellow; border-width: 5PX; border-bottom:5PX ;">
-                <div style="display: inline-block;border-top: 50PX; border-bottom: 50PX; border-color: yellow;">
+            <div class="smallbox">
+                <div class="shortbox">
+                    <img src="../3.jpg" alt="" height="200PX" width="250PX">
+                </div> <br><br>
+
+                <div style="background-color: yellow; height:6PX;width:250PX; margin-bottom: 5PX;"> </div>
+                <div class="shortbox">
                     <button class="bbutton"> Engineering </button><br>
                     <button class="bbutton"> Management</button> <br>
                     <button class="bbutton"> Computer Science & App.</button> <br>
                     <button class="bbutton"> Life Science </button> <br>
                     <button class="bbutton"> DOEACC</button>
+                    <div style="background-color: yellow; height:6PX;width:250PX; margin-top: 10PX;"> </div>
                 </div>
-                <hr style="border-color: yellow; border-width: 5PX; border-bottom:5PX ;">
 
             </div>
-            <div style="height: 350PX; width: 300PX; display: inline-block; background-color: yellow;" > 
-               <img src="../2.jpg" alt="" height="370PX" width="250PX">
+            <div class="smallbox">
+                <img src="../2.jpg" alt="" height="375PX" width="250PX">
             </div>
-           <!-- <div style="height: 350PX; width: 150PX; background-color: red; display: inline-block;"> Rajawat </div>
-            -->
+            <div class="smallbox">
+                <div class="shortbox">
+                    <p style="color: red;"> Abhishek is looking for doing something </p>
+                    <img src="../4.jpg" alt="">
+                    <p class="headline"> Enquire Now</p>
+                    <p> Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="Name"> </p>
+                </div>
+                <div class="shortbox ">
+                    <div> E-mail &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"> </div>
+                    <div style="margin-top: 5PX;"> Mobile No. <input type="text"> </div>
+                    <div style="margin-top: 5PX;"> City
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+                    </div>
+                    <div style="margin-top: 5PX;"> Query &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                            type="text" style="height:50PX ;"> </div>
+                    <span>
+                        <button style="margin-top: 5PX; margin-left: 50PX;"> Clear </button>
+                        <button style="margin-left: 10PX;"> Submit </button> </span>
+                    <div style="background-color: yellow; height:6PX;width:250PX; margin-top: 5PX;"> </div>
+                </div>
+
+            </div>
         </div>
-        
+       
+        <div class="box6" >
+            <div class="smallbox" >
+                <p class="headline"> Enquire Now</p>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                       <a href="../RGPV/Index.html"> RGPV </a>
+                    </div>
+    
+                </div>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                       <a href="../JIWAJI/Index.html">  JIWAJI </a>
+                    </div>
+    
+                </div>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                       <a href="../MCNUJC/Index.html"> MCNUJC </a>
+                    </div>
+    
+                </div>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                        <a href="../UGC/Index.html"> UGC  </a>
+                    </div>
+    
+                </div>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                       <a href="../results/index.html"> RESULTS </a>
+                    </div>
+    
+                </div>
+                <div class="Samllbox1">
+                    <div class="bullet">
+                        <img src="../bullet_black.png" alt="" height="32PX" width="50PX">
+                    </div>
+                    <div class="links">
+                       <a href="../Downloads/Index.html"> DOWNLOADS </a>
+                    </div>
+    
+                </div>
+            </div>
+       </div> 
     </div>
 </body>
 
